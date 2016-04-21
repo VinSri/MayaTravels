@@ -14,7 +14,7 @@ describe "top bar" do
   end
 
   it 'display Shri Maya travels caption' do
-    expect(page).to have_content('Shri Maya Travels - Explore Your Sprituality')
+    expect(page).to have_content('Shri Maya Travels - Forever Success')
   end
 
   it 'call experts contact number' do
