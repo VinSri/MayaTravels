@@ -10,11 +10,12 @@
   <div id="wrapper">
     <!-- Top Bar -->
     <%= render 'layouts/topbar' %>
-    <!-- Navigation -->
-    <%= render 'layouts/navigation' %>
+    <!-- Logo and Navigation -->
+    <%= render 'layouts/header' %>
     <!-- Body -->
     <%= yield %>
+    <!-- Footer -->
+    <%= render 'layouts/footer' %>
   </div>
-  <%#= render 'layouts/footer' %>
 </body>
 </html>
