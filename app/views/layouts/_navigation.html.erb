@@ -16,9 +16,11 @@
     <!-- Navigation -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li>
-          <%= create_active_link('Home', root_path) %>
-        </li>
+        <%= create_active_link('Home', root_path) %>
+        <%= create_active_link('About', '#') %>
+        <%= create_active_link('Destinations', '#') %>
+        <%= create_active_link('Offers', '#') %>
+        <%= create_active_link('Contact', '#') %>
       </ul>
     </div>
     <!-- /.navbar-collapse -->

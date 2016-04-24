@@ -17,5 +17,20 @@ describe "Home Page - logo and navigations" do
     it "should have the link 'Home'" do
       expect(page).to have_link('Home', href: '/')
     end
+    it "should have the link 'About'" do
+      expect(page).to have_link('About', href: '#')
+    end
+
+    it "should have the link 'Destinations'" do
+      expect(page).to have_link('Destinations', href: '#')
+    end
+
+    it "should have the link 'Offers'" do
+      expect(page).to have_link('Offers', href: '#')
+    end
+
+    it "should have the link 'Contact'" do
+      expect(page).to have_link('Contact', href: '#')
+    end
   end
 end
