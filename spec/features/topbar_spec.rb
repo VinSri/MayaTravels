@@ -3,6 +3,10 @@ require 'rails_helper'
 describe "top bar" do
   before(:each) {visit root_path}
 
+  it "have the title" do
+    expect(page.title).to include("Shri Maya Travels")
+  end
+
   context "social icons" do
     it 'has the necessary div styles' do
       expect(page).to have_css("section.top_sec")
